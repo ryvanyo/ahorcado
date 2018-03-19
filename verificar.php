@@ -10,6 +10,10 @@ function is_game_over(){
 
 is_game_over();
 
+if (empty($_POST['letra'])) {
+	header("Location: ahorcado.php");
+	exit();
+}
 $letra = $_POST['letra'][0];
 
 $pos = strpos($_SESSION['palabra_secreta'], $letra);
