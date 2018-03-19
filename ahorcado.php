@@ -11,6 +11,7 @@ if (empty($_SESSION['palabra_secreta'])) {
 	];
 }
 extract($_SESSION, EXTR_OVERWRITE);
+
 ?><!doctype html>
 <html lang="es">
 	<head>
