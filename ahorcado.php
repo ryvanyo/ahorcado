@@ -41,7 +41,6 @@ extract($_SESSION, EXTR_OVERWRITE);
 					} else {
 						echo '<span></span> ';
 					}
-					
 				} else {
 					echo '&nbsp;&nbsp;';
 				}
@@ -51,7 +50,7 @@ extract($_SESSION, EXTR_OVERWRITE);
 		<form action="verificar.php" method="post" >
 			<p>
 				<strong>Intentar letra: </strong>
-				<input type="text" name="letra" maxlength="1" value="" style="width: 30px">
+				<input autofocus="" type="text" name="letra" maxlength="1" value="" style="width: 30px">
 				<input type="submit" value="Probar">
 			</p>			
 		</form>

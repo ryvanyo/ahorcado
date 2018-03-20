@@ -1,5 +1,8 @@
 <?php
 session_start();
+/*header('Content-Disposition: attachment; filename=pomporita.gif');
+readfile('cabeza.gif');
+exit();*/
 
 function is_game_over(){
 	if ($_SESSION['intentos']>=$_SESSION['max_intentos']) {
